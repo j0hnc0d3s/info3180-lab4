@@ -1,12 +1,24 @@
-# INFO3180 Lab 4 Starter Code
+# INFO3180 — Lab 4
 
-This is the starter code for Lab 4 which requires you to build a Flask app that does simple file uploads and has basic authentication.
+> Vue.js fundamentals: components, reactivity, and the SPA model.
 
-Remember to always create a virtual environment and install the packages in your requirements file
+Built for **INFO3180 — Web Programming II** at the University of the West Indies, Mona.
 
+## Tech Stack
+- **Frontend:** Vue.js, HTML5, CSS3
+- **Build Tool:** Vite
+
+## Topics Practised
+- Vue component definitions and registration
+- Reactivity with `ref` and `reactive`
+- Component props and event emission
+- Conditional rendering (`v-if`, `v-else`) and list rendering (`v-for`)
+- Two-way binding with `v-model`
+
+## Run Locally
 ```bash
-$ python -m venv venv (you may need to use python3 instead)
-$ source venv/bin/activate (or .\venv\Scripts\activate on Windows)
-$ pip install -r requirements.txt
-$ flask --app app --debug run
+npm install
+npm run dev
 ```
+
+Built by [Josiah-John Green](https://github.com/j0hnc0d3s) — Software Engineering, UWI Mona '26.
